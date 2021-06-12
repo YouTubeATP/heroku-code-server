@@ -77,3 +77,5 @@ RUN code-server --install-extension oderwat.indent-rainbow --force
 RUN code-server --install-extension redhat.vscode-xml --force
 RUN code-server --install-extension bajdzis.vscode-database --force
 RUN code-server --install-extension eamodio.gitlens --force
+RUN code-server --install-extension ms-python.python --force
+RUN code-server --install-extension ms-vscode.cpptools --force
