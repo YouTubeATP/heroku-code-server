@@ -74,7 +74,6 @@ RUN code-server --install-extension coenraads.bracket-pair-colorizer-2 --force
 RUN code-server --install-extension pkief.material-icon-theme --force
 RUN code-server --install-extension vscjava.vscode-java-pack --force
 RUN code-server --install-extension oderwat.indent-rainbow --force
-RUN code-server --install-extension quicktype.quicktype --force
 RUN code-server --install-extension redhat.vscode-xml --force
 RUN code-server --install-extension bajdzis.vscode-database --force
 RUN code-server --install-extension eamodio.gitlens --force
