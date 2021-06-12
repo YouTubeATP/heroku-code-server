@@ -70,15 +70,12 @@ CMD bash /home/coder/run.sh ; /usr/local/bin/code-server --host 0.0.0.0 --port $
 
 #extensions
 RUN code-server --install-extension azemoh.one-monokai --force
-RUN code-server --install-extension wasimaster.discord-py-snippets --force
 RUN code-server --install-extension coenraads.bracket-pair-colorizer-2 --force
 RUN code-server --install-extension pkief.material-icon-theme --force
 RUN code-server --install-extension vscjava.vscode-java-pack --force
 RUN code-server --install-extension ms-vscode.vscode-typescript-next --force
 RUN code-server --install-extension oderwat.indent-rainbow --force
-RUN code-server --install-extension michelemelluso.gitignore --force
 RUN code-server --install-extension quicktype.quicktype --force
-RUN code-server --install-extension visualstudioexptteam.vscodeintellicode --force
 RUN code-server --install-extension redhat.vscode-xml --force
 RUN code-server --install-extension bajdzis.vscode-database --force
 RUN code-server --install-extension eamodio.gitlens --force
